@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria DEV.F</title>
 </head>
+
 <body>
     <link rel="stylesheet" href="style.css">
-    <h1>Pizzas DEV.F <DEV class="F"></DEV></h1>
-    <h2>Menú:</h2>
-    <p>Pizza Napolitana</p><p>Pizza de Pepperoni</p>
-    <p>Pizza Vegana</p><p>Pizza de 4 quesos</p>
-    <h2>Ingrese su pedido aquí:</h2>
+    <h1 class="titulop">Pizzas DEV.F and Mandro S.A <DEV class="F"></DEV>
+    </h1>
+    <nav id="nav1">
+        <h2 class="h2m">Menú:</h2>
+        <p>Pizza Napolitana <img id="pepe"src="assets\SalameF-400x400.png" alt="jpg"></p>
+        <p>Pizza de Pepperoni <img id="pepe"src="assets\0.webp" alt="jpg"></p></p>
+        <p>Pizza Vegana <img id="pepe"src="assets\pveg_c.png" alt="jpg"></p></p>
+        <p>Pizza de 4 quesos <img id="pepe"src="assets\p4qu_c.png" alt="jpg"></p></p>
+    </nav>
+    <h2 class="h2m">Ingrese su pedido aquí:</h2>
     <form>
-        <select name="PIZZASTYPE"
-        required
-        placeholder="Elija su tipo de pizza">
+        <select name="PIZZASTYPE" required placeholder="Elija su tipo de pizza">
             <option value="pizzaN">Pizza Napolitana</option>
             <option value="pizzaP">Pizza Pepperoni</option>
             <option value="pizzaV">Pizza Vegana</option>
             <option value="pizzaQ">Pizza de 4 quesos</option>
         </select>
-        <input type="number"
-        min="1"
-        max="4"
-        placeholder="0"
-        required>
+        <input type="number" min="1" max="4" placeholder="0" required>
         <br>
         <label for="hora">Hora de entrega</label>
-        <input type="time"
-        name="hora">
+        <input type="time" name="hora">
         <br>
         <h3>Ingrese datos personales</h3>
-        <input type="text"
-        name="nombre"
-        placeholder="Ingrese su nombre">
+        <input type="text" name="nombre" placeholder="Ingrese su nombre">
         <br>
-        <input type="text"
-        name="email"
-        placeholder="Ingrese su Email">
+        <input type="text" name="email" placeholder="Ingrese su Email">
         <br>
-        <input type="text"
-        name="direccion"
-        placeholder="Ingrese su Dirección">
+        <input type="text" name="direccion" placeholder="Ingrese su Dirección">
         <br>
         <h3>Seleccione método de pago</h3>
         <label for="mpe">Efectivo</label>
@@ -56,4 +50,5 @@
         <button type="submit">Completar mi pedido</button>
     </form>
 </body>
+
 </html>
