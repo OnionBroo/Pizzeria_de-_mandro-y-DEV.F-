@@ -10,45 +10,63 @@
 
 <body>
     <link rel="stylesheet" href="style.css">
+    <nav class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8qxcmIJuHsibQyjAGKJShr0BgACNhYQRYwHwo2xg7Uo0l9uozL1-yjddGSmjksa5Z6A&usqp=CAU" alt="">
+    </nav>
     <h1 class="titulop">Pizzas DEV.F and Mandro S.A <DEV class="F"></DEV>
     </h1>
+    <h2 class="h2m">Menú:</h2>
     <nav id="nav1">
-        <h2 class="h2m">Menú:</h2>
-        <p>Pizza Napolitana <img id="pepe"src="assets\SalameF-400x400.png" alt="jpg"></p>
-        <p>Pizza de Pepperoni <img id="pepe"src="assets\0.webp" alt="jpg"></p></p>
-        <p>Pizza Vegana <img id="pepe"src="assets\pveg_c.png" alt="jpg"></p></p>
-        <p>Pizza de 4 quesos <img id="pepe"src="assets\p4qu_c.png" alt="jpg"></p></p>
+        <span>Pizza Napolitana <br> <img id="pepe" src="assets\SalameF-400x400.png" alt="jpg"></span> <span>Pizza de
+            Pepperoni <br><img id="pepe" src="assets\0.webp" alt="jpg"></span><span>Pizza Vegana <br><img id="pepe"
+                src="assets\pveg_c.png" alt="jpg"></span><span>Pizza de 4 quesos <br> <img id="pepe"
+                src="assets\p4qu_c.png" alt="jpg"></span>
     </nav>
     <h2 class="h2m">Ingrese su pedido aquí:</h2>
     <form>
-        <select name="PIZZASTYPE" required placeholder="Elija su tipo de pizza">
-            <option value="pizzaN">Pizza Napolitana</option>
-            <option value="pizzaP">Pizza Pepperoni</option>
-            <option value="pizzaV">Pizza Vegana</option>
-            <option value="pizzaQ">Pizza de 4 quesos</option>
-        </select>
-        <input type="number" min="1" max="4" placeholder="0" required>
-        <br>
-        <label for="hora">Hora de entrega</label>
-        <input type="time" name="hora">
-        <br>
-        <h3>Ingrese datos personales</h3>
-        <input type="text" name="nombre" placeholder="Ingrese su nombre">
-        <br>
-        <input type="text" name="email" placeholder="Ingrese su Email">
-        <br>
-        <input type="text" name="direccion" placeholder="Ingrese su Dirección">
-        <br>
-        <h3>Seleccione método de pago</h3>
-        <label for="mpe">Efectivo</label>
-        <input type="radio" name="Pay" id="mpe">
-        <br>
-        <label for="mpd">Débito</label>
-        <input type="radio" name="Pay" id="mpd">
-        <br>
-        <br>
-        <button type="submit">Completar mi pedido</button>
+        <span id="pt"><select id="ptc" name="PIZZASTYPE" required placeholder="Elija su tipo de pizza">
+                <option value="pizzaN">Pizza Napolitana</option>
+                <option value="pizzaP">Pizza Pepperoni</option>
+                <option value="pizzaV">Pizza Vegana</option>
+                <option value="pizzaQ">Pizza de 4 quesos</option>
+            </select>
+            <br>
+            <input id="ptc" type="number" min="1" max="4" placeholder="0" required>
+            <br>
+            <label id="ptc" for="hora">Hora de entrega</label>
+            <input id="ptc" type="time" name="hora">
+            <br>
+        </span>
+        <span id="dp">
+            <h3 id="dpc">Ingrese datos personales</h3>
+            <input id="dpc" type="text" name="nombre" placeholder="Ingrese su nombre">
+            <br>
+            <input id="dpc" type="text" name="email" placeholder="Ingrese su Email">
+            <br>
+            <input id="dpc" type="text" name="direccion" placeholder="Ingrese su Dirección">
+        </span>
+        <span id="mp">
+            <h3 id="mpc">Seleccione método de pago</h3>
+            <label id="mpc" for="mpc">Efectivo</label>
+            <input id="mpc" type="radio" name="Pay" >
+            <br>
+            <label id="mpc" for="mpd">Débito</label>
+            <input type="radio" name="Pay" id="mpc">
+            <br>
+            <br>
+            <button type="submit">Completar mi pedido</button>
+        </span>
     </form>
+    <footer>contacto:
+        <ul><a href="https://www.instagram.com/androx_mandrox/">Mandro IG</a>
+            <br>
+            <a href="https://psnprofiles.com/Yaku_bynni">Perfil de PSN</a>
+            <br>
+            pepe
+            <br>
+            pepe
+        </ul>
+    </footer>
 </body>
 
 </html>

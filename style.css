@@ -27,26 +27,69 @@ body {
     padding-bottom: 10px;
     width: max-content;
 }
+#nav1{
+    display: flex;
+    height: 400px;
+    background-color: rgb(255, 179, 176);
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+#nav1 span{
+        width: 457px;
+        border:solid 2px rgb(112, 0, 0);
+        color: rgb(119, 0, 0);
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#pepe{
+    width: 60%;
+    position: relative;
+    top: 60px;
+    right: -90px;
 
-p {
-    color: rgb(179, 6, 6);
-    margin-left: 50%;
+    
+}
+.header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+form{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(131, 0, 0);
+
+}
+form #pt{
+    background-color: rgb(255, 152, 152);
+}
+form #pt #ptc{
+    color: rgb(92, 0, 0);
     font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
-
-#pepe {
-    width: 15%;
-    height: 10%;
-    padding-top: px;
-    background-color: rgb(173, 0, 0);
-    border-radius: 8px;
+form #dp{
+    background-color: rgb(255, 152, 152);
 }
-
-p:hover {
-    color: rgb(255, 253, 107);
+form #dp #dpc{
+    color: rgb(92, 0, 0);
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
-
-button:hover {
-    background-color: blue;
-    color: aliceblue;
+form #mp{
+    background-color: rgb(255, 152, 152);
+}
+form #mp #mpc{
+    color: rgb(92, 0, 0);
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+footer{
+    padding-left: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
